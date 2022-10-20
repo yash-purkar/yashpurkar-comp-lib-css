@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Mulish&display=swap");
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif; */
+
+:root {
+  --color-primary: #00b0ff;
+  --white: #fff;
+  --gray: #64748b;
+  --off-white: #f0f9ff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  margin-top: 2rem;
+}
+
+/* container */
+.container {
+  padding: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* links */
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--color-primary);
+  color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.link-secondary {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  border-radius: 0.5rem;
+}
+
+/* lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+  background-color: var(--color-primary);
+  border-bottom-left-radius: 1rem;
+  padding: 1rem;
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+.navigation .link {
+  color: var(--white);
+}
+.navigation .nav-brand {
+  font-weight: bold;
+  color: var(--white);
+}
+
+.navigation .link-active {
+  font-weight: bold;
+  border: 1px solid var(--white);
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+}
+.navigation .link:hover {
+  font-weight: bold;
+}
+
+/* header */
+.hero {
+  text-align: center;
+}
+.hero .hero-img {
+  max-width: 350px;
+}
+
+.hero-heading {
+  color: var(--gray);
+  padding-top: 1rem;
+}
+
+/* sections */
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--color-primary);
+  padding: 2rem 1rem;
+  color: var(--white);
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+
+.social-links {
+  padding-inline-start: 0px;
+}
+
+.social-links .link {
+  color: var(--white);
+}

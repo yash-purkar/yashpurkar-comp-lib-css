@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Yash's Component library</h1>
+
+    
+      <p><strong>Adarsh Balak</strong> is attending neog.camp and is currently completing levelZero one weekend and assignment at a time.</p>
+      <p>This is a component library created by her to better design each element.</p>
+      </p>
+      <p>After creating this library she is going to use the components in his <strong>portfolio, blog and all projects</strong> created. This will ensure that all her projects have <strong>consistent themeing and styling</strong>
+
+      </p>
+    
+
+    <hr />
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+
+    <h2>This is the second biggest</h2>
+
+    <p>
+      Let me show you the normal text. This is free flowing and will wrap at the
+      end like a paragraph.
+    </p>
+
+    <small>This is relatively smaller text.</small>
+    <hr />
+
+    <h2>@container</h2>
+
+    <h3>@fluid container</h3>
+    <div class="container container-fluid">This is going to be a fluid container. It will go full width of page. With some margin.</div>
+
+    <h3>Center container</h3>
+    <div class="container container-center">This is going to be a center container. It will go till a given width and center content.
+    </div>
+
+    <hr />
+
+    <h2>@links</h2>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr />
+
+    <h2>@lists</h2>
+<p>This list will not have the bullet points.</p>
+    <h3>unordered list</h3>
+    <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
+    <ul class="list-non-bullet">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+
+    <h3> inline list</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns.</p>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Item One</li>
+      <li class="list-item-inline">Item Two</li>
+      <li class="list-item-inline">Item Three</li>
+    </ul>
+
+    <h3>reversed ordered list</h3>
+    <p>Counting of will go reverse for this list</p>
+    <ol reversed>
+      <li>Milk</li>
+      <li>Sugar</li>
+      <li>Chips</li>
+    </ol>
+    <hr />
+
+    <h2>@nav</h2>
+    <p>Navigation is used on the top of the page and used to get to different pages</p>
+    <nav class="navigation container">
+      <div class="nav-brand">theBrandName</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline"><a class="link link-active" href="/">Home</a></li>
+        <li class="list-item-inline"><a class="link" href="/">Projects</a></li>
+        <li class="list-item-inline"><a class="link" href="/">About</a></li>
+      </ul>
+    </nav>
+    <hr />
+
+    <h2>@header</h2>
+    <header class="hero">
+      <img class="hero-img" src="images/feeling-proud.svg" alt="hero img" />
+      <h1 class="hero-heading">Yash Purkar The <span style="color: var(--color-primary);">Web Developer.</span></h1>
+    </header>
+
+    <hr>
+
+    <!-- A section is used to separate parts of pages. In making websites you would
+      have seen a header followed by sections by sections features, team,
+      pricing, contact info etc. -->
+
+    <h2>@sections</h2>
+
+    <section class="section">
+      <div class="container container-center">
+      <h1>white section</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil tenetur provident voluptates nesciunt recusandae explicabo fugiat quisquam voluptate quae minus cum odio voluptatem distinctio labore saepe eos, sit neque quo laboriosam molestias facilis consectetur. Nostrum optio aliquid, accusantium ea quo accusamus asperiores distinctio id sed fugit porro, tempore esse debitis!</p>
+    </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center">
+
+        <h1>off white section</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, adipisci! Pariatur eligendi ad eaque, quam ipsa tempore earum, aspernatur, perspiciatis quisquam odit recusandae? Optio ab pariatur sunt illum quod, voluptatibus dicta laborum expedita alias iusto sequi iste nesciunt nobis. Debitis consequuntur ad libero. Id culpa eius a corrupti nihil earum.</p>
+      </div>
+      </section>
+      <hr />
+
+    <h2>@footer</h2>
+    <footer class="footer">
+      <div class="footer-heading">Some small heading inside footer</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"><a href="/" class="link">socialOne</a></li>
+        <li class="list-item-inline"><a href="/" class="link">socialTwo</a></li>
+        <li class="list-item-inline"><a href="/" class="link">socialThree</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
